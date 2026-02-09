@@ -36,6 +36,39 @@ POST /api/tasks (Protected)
 
 GET /api/tasks (Protected)
 
+✅ Task Routes (Protected) 
+
+Method	Endpoint	Description
+POST	/api/tasks	Create a new task
+GET	/api/tasks	Get all tasks of logged-in user
+
+📥 Sample Request Bodies
+Register User
+{
+  "username": "john_doe",
+  "email": "john@gmail.com",
+  "password": "123456"
+}
+
+Login User
+{
+  "email": "john@gmail.com",
+  "password": "123456"
+}
+
+Create Task
+{
+  "title": "Complete Secure Task Manager Assignment"
+}
+
+⚙️ Environment Variables
+
+Create a .env file in the root directory:
+
+PORT=5000
+MONGO_URI=mongodb://127.0.0.1:27017/secureTaskDB
+JWT_SECRET=securetasksecret123
+
 ▶️ Run Project
 npm install
 nodemon server.js
@@ -76,6 +109,7 @@ It ensures data privacy, authorization control, and follows professional project
 👤 Author
 
 Yash Raj Bhasin
+
 
 
 
