@@ -6,25 +6,25 @@ A secure REST API built using Node.js, Express, MongoDB, and JWT to manage user 
 
 ✨ Features
 
-JWT-based authentication
+1)JWT-based authentication
 
-Secure password hashing
+2)Secure password hashing
 
-Protected API routes
+3)Protected API routes
 
-User-specific task management
+4)User-specific task management
 
 🛠️ Tech Stack
 
-Node.js
+1)Node.js
 
-Express.js
+2)Express.js
 
-MongoDB & Mongoose
+3)MongoDB & Mongoose
 
-JSON Web Token (JWT)
+4)JSON Web Token (JWT)
 
-bcrypt
+5)bcrypt
 
 🔗 API Endpoints
 
@@ -39,12 +39,43 @@ GET /api/tasks (Protected)
 ▶️ Run Project
 npm install
 nodemon server.js
+Server will run at:
+
+http://localhost:5000
+
+Testing the API -
+
+1)API endpoints are tested using Postman
+
+2)Postman collection is included in the repository
+
+3)JWT-protected routes are tested using Authorization headers
+
+🌿 GitHub Branching Strategy
+
+This project follows a three-branch workflow:
+
+dev → Development
+
+stage → Testing
+
+main → Final submission
+
+All code is merged following:
+
+dev → stage → main
 
 🔐 Authorization
 Authorization: Bearer <JWT_TOKEN>
 
+📌 Conclusion
+
+The Secure Task Manager API successfully demonstrates secure backend development practices using JWT authentication.
+It ensures data privacy, authorization control, and follows professional project structuring suitable for academic and real-world applications.
+
 👤 Author
 
 Yash Raj Bhasin
+
 
 
