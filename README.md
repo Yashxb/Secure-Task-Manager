@@ -47,6 +47,4 @@ Authorization: Bearer <JWT_TOKEN>
 
 Yash Raj Bhasin
 
-POST /api/auth/login
 
-POST /api/tasks (Protected)
